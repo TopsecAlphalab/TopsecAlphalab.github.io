@@ -20,6 +20,7 @@ qdPM 9.1
 3.提交之后，我们可以看到db_error信息输出在页面上：
  
 4.构造payload url：http://127.0.0.1/qdPM/install/index.php?step=database_config&db_error=<img src=x onerror=alert(1) /> 并对其访问
+
 5.可以看到，xss成功执行：
  
 
